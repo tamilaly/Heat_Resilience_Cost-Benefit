@@ -1,6 +1,6 @@
 # Probabilistic Cost-Benefit Assessment for Renovation Measures targeting heating and cooling efficiency
 
-This script can be used to simulate the possible chances for cost-recovery and development of total cost long-term. The goal might be to understand the likelihood and impact of worst-case scenarios. The input data is based on energy plus simulations 
+This script can be used to simulate the possible chances for cost recovery and the development of the total cost in the long term. The goal might be to understand the likelihood and impact of worst-case scenarios. The input data is based on energy plus simulations 
 historical weather data analysis used as an
 
 ## Getting Started
@@ -20,18 +20,18 @@ pip install pandas matplotlib numpy scipy
 ```
 ### Executing program
 
-Using the code Net Present Value and Total Cost of Ownership can be calculated probabilistically based on climate variability. ALso probability density for performance indicators such as energy use intensity, carbon intensity and heat resilience indicators can be estimated. The operations are all seperated into several programs. The basis for the calculation is the energy simulation results for several historical weather years representing certain points on the cumulative probability function e.g. 2019: 51%. 
+Using the code Net Present Value and Total Cost of Ownership can be calculated probabilistically based on climate variability. Also, probability density for performance indicators such as energy use intensity, carbon intensity, and heat resilience indicators can be estimated. The operations are all separated into several programs. The basis for the calculation is the energy simulation results for several historical weather years representing certain points on the cumulative probability function e.g. 2019: 51%. 
 
 #### configurations: use of analysis settings
 * universal_data.json stores all fixed data inputs for energy pricing etc. 
-* analysis_settings.json stoes the specific settings for the cost-benefit such as the discount rate, analysis period, but also the reference yeas and percentages to reconstruct the distribution
+* analysis_settings.json stores the specific settings for the cost-benefit such as the discount rate, analysis period, but also the reference yeas and percentages to reconstruct the distribution
 
 #### scenarios: renovation scenario & baseline
 the json files are the backlog to all necessary data for the scenarios
 baseline_scenario.json stores the link to the estimated energy demands e.g. "cooling_file": "AC_Simple-01_extra_CDD.csv" 
-and all necessary heating or cooling system data as in efficiency rate, supply source, global costs
+and all the required heating or cooling system data as in efficiency rate, supply source, global costs
 * renovation_scenarios.json
-same goes here! scenarios are concatenated. 
+* same goes here! scenarios are concatenated. 
 The available scenarios are:
     * S01_simple_shading
     * S02_simple_paint
@@ -39,7 +39,7 @@ The available scenarios are:
     * M01_medium_shading
     * D01_deep_shading-paint
 
-create your own scenario by specifying the following
+Create your own scenario by specifying the following
 system types: air_conditioning_split, gas_condensing_boiler, district_heating
 energy sources: districtheating, gas, electricity
 
@@ -85,7 +85,7 @@ NPV is different from TCOO
 NPV calculation with fixed samples
 
 
-# _Performance is a collection of scripts to evaluate the distribution statistics for energy, carbon, cost, and also overheating indicators
+# '_Performance' is a collection of scripts to evaluate the distribution statistics for energy, carbon, cost, and also overheating indicators
 
 ## Help
 
@@ -96,6 +96,7 @@ NPV calculation with fixed samples
 Contributors names and contact info
 
 ex. Tamara Lalyko [@tamilaly]
+
 
 
 
