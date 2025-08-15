@@ -1,0 +1,21 @@
+{
+    "baseline": {
+        "household_size": 8,
+        "file": "AC_Baseline_TMY.csv",
+        "cooling_energy_source": "electricity",
+        "cooling_file": "AC_Baseline_CDD.csv",
+        "heating_file": "AC_Baseline_HDD.csv",
+        "overheating_file": "Scenario_Comfort.csv",
+        "heating_energy_source": "gas",
+        "cooling_system_type": "air_conditioning_split",
+        "heating_system_type": "gas_condensing_boiler",
+        "cooling_cop_or_eer": 2.9,
+        "heating_cop_or_eer": 0.85,
+        "investment_cost_cooling": 0,
+        "investment_cost_heating": 0,
+        "maintenance_cost_item1": 0,
+        "maintenance_cycle_item1": null,
+        "replacement_cost_item1": 0,
+        "replacement_cycle_item1": null
+    }
+}

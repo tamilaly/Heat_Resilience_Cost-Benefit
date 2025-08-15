@@ -1,0 +1,21 @@
+{
+    "price_electricity": 0.243,
+    "price_gas": 0.1604,
+    "price_districtheating": 0.168,
+    "fixed_cost_electricity": 342.17,
+    "fixed_cost_gas": 247.16,
+    "fixed_cost_districtheating": 291.42,
+    "tax_reduction_electricity": 596.86,
+    "tax_reduction_gas": 0,
+    "tax_reduction_districth": 0,
+
+    "air_conditioning_split_cop": 2.9,
+    "gas_condensing_boiler_eer": 0.85,
+    "district_heating_eer": 1.0,
+  
+    "CE_rate_electricity": 0.37,
+    "CE_rate_gas": 0.22,
+    "CE_rate_districtheating": 0.12744,
+  
+    "CE_price": 219.1
+  }

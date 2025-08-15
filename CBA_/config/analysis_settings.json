@@ -1,0 +1,10 @@
+{
+    "start_year": 2025,
+    "reference_year": 2020,
+    "analysis_period": 30,
+    "discount_rate": 3.0, 
+    "reference_years_heating": [2023, 1995, 2018, 2019, 2012, 2011, 2010],
+    "reference_percentages_heating": [0, 11, 25, 51, 75, 96, 100],
+    "reference_years_cooling": [2007, 2021, 2017, 2001, 2003, 1995, 2020],
+    "reference_percentages_cooling": [0, 3, 27, 46, 76, 97, 100]
+  }

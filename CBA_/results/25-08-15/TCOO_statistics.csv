@@ -1,0 +1,5 @@
+run_index,scenario_name,num_simulations,num_pdf_samples,discount_rate,cooling_enabled,heating_enabled,mean_tcoo,std_tcoo,lower_bound_95ci,upper_bound_95ci
+0,baseline,1000,10000,3.0,True,False,14909.77,1510.69,12200.28,17951.48
+1,S01_simple_shading,1000,10000,3.0,True,False,23848.34,1395.63,21276.99,26675.6
+2,S02_simple_paint,1000,10000,3.0,True,False,24416.99,1447.05,21611.79,27215.31
+3,S04_simple_combi,1000,10000,3.0,True,False,33287.67,1400.15,30594.03,36037.15

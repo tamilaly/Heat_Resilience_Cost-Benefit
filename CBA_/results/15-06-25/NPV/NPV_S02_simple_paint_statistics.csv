@@ -1,0 +1,5 @@
+run_index,scenario_name,num_simulations,num_pdf_samples,discount_rate,cooling_enabled,heating_enabled,mean_npv,std_npv,lower_bound_95ci,upper_bound_95ci
+0,S02_simple_paint,5000,10000,3.0,True,True,-9163.11,210.3,-9555.51,-8735.34
+1,S02_simple_paint,5000,10000,3.0,False,True,205.03,214.98,-213.46,633.7
+2,S02_simple_paint,5000,10000,3.0,True,False,-9377.04,29.27,-9435.23,-9319.87
+3,S02_simple_paint,5000,10000,3.0,True,False,-9376.06,28.84,-9431.87,-9319.95

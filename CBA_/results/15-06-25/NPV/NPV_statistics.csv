@@ -1,0 +1,4 @@
+run_index,scenario_name,num_simulations,num_pdf_samples,discount_rate,cooling_enabled,heating_enabled,mean_npv,std_npv,lower_bound_95ci,upper_bound_95ci,threshold_15_years,99th_percentile
+1,S01_simple_shading-extra,5000,10000,3.0,True,False,-9031.41,50.22,-9129.31,-8932.56,-8959,-8917.86
+2,S02_simple_paint,5000,10000,3.0,True,False,-9377.04,29.27,-9435.23,-9319.87,-9331,-9309.54
+3,S04_simple_combi,5000,10000,3.0,True,False,-18512.92,74.71,-18661.64,-18368.27,-18404,-18344.36
