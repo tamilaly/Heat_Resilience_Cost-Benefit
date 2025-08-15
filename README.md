@@ -20,11 +20,9 @@ pip install pandas matplotlib numpy scipy
 ```
 ### Executing program
 
-describe the general usage of operations
-
 Using the code Net Present Value and Total Cost of Ownership can be calculated probabilistically based on climate variability. ALso probability density for performance indicators such as energy use intensity, carbon intensity and heat resilience indicators can be estimated. The operations are all seperated into several programs. The basis for the calculation is the energy simulation results for several historical weather years representing certain points on the cumulative probability function e.g. 2019: 51%. 
 
-#### configuarations: use of analysis settings
+#### configurations: use of analysis settings
 * universal_data.json stores all fixed data inputs for energy pricing etc. 
 * analysis_settings.json stoes the specific settings for the cost-benefit such as the discount rate, analysis period, but also the reference yeas and percentages to reconstruct the distribution
 
@@ -98,6 +96,7 @@ NPV calculation with fixed samples
 Contributors names and contact info
 
 ex. Tamara Lalyko [@tamilaly]
+
 
 
 
