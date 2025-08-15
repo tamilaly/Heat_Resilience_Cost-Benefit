@@ -85,7 +85,7 @@ NPV is different from TCOO
 NPV calculation with fixed samples
 
 
-# '_Performance' is a collection of scripts to evaluate the distribution statistics for energy, carbon, cost, and also overheating indicators
+### '_Performance' is a collection of scripts to evaluate the distribution statistics for energy, carbon, cost, and also overheating indicators
 
 ## Help
 
@@ -96,6 +96,7 @@ NPV calculation with fixed samples
 Contributors names and contact info
 
 ex. Tamara Lalyko [@tamilaly]
+
 
 
 
